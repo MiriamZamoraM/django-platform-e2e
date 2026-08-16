@@ -1,0 +1,7 @@
+DB_NAME=mydatabase
+DB_USER=myuser
+DB_PASSWORD=mypassword
+DB_HOST=db
+DB_PORT=5432
+SECRET_KEY=django-insecure-dev-key
+DEBUG=True

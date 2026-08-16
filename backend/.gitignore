@@ -1,0 +1,11 @@
+# === Django ===
+*.pyc
+db.sqlite3
+media/
+staticfiles/
+.env
+__pycache__/
+
+# === Docker ===
+docker-compose.override.yml
+*.log
