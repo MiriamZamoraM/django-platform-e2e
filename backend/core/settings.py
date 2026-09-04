@@ -4,7 +4,7 @@ from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
-APPS_DIR = BASE_DIR / "apps"
+APPS_DIR = BASE_DIR / "app"
 sys.path.insert(0, str(APPS_DIR))
 
 
