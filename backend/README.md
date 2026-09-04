@@ -31,13 +31,3 @@ El servicio lee la configuración del sistema operativo mediante `os.getenv()`. 
 ---
 
 ## 🚀 Endpoints Principales
-
-### `GET /health/`
-Verifica el estado de la aplicación y la conexión activa con la base de datos.
-
-**Respuesta exitosa (`200 OK`):**
-```json
-{
-  "status": "healthy",
-  "database": "connected"
-}
