@@ -2,8 +2,10 @@
 FROM python:3.11-slim
 
 # Evita archivos .pyc y habilita salida directa de logs en terminal
-ENV PYTHONDONTWRITEBYTECODE=1 \
+ENV PYTHONDONTWRITEBYTECODE=1 \ 
+# PYTHONDONTWRITEBYTECODE=1 evita que Python genere archivos .pyc
     PYTHONUNBUFFERED=1
+# PYTHONUNBUFFERED=1 asegura que la salida de Python se muestre en tiempo real en la terminal
 
 WORKDIR /app
 

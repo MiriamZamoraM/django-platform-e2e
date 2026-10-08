@@ -34,6 +34,6 @@ Un entorno de desarrollo moderno y contenedorizado para aplicaciones web con Dja
 │   ├── manage.py
 │   ├── Dockerfile             # Imagen optimizada de Python 3.11
 │   └── requirements.txt
-├── .env.example               # Plantilla de variables de entorno
+├── .file.env.example               # Plantilla de variables de entorno
 ├── docker-compose.yml         # Orquestación de servicios (web + db)
 └── README.md
